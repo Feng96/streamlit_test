@@ -36,5 +36,3 @@ st.subheader('Map of all pickups at %s:00' % hour_to_filter)
 st.map(filtered_data)
 
 st.image('https://25.media.tumblr.com/395f701f91e7d56822488fc51bf522b3/tumblr_mlb40if7641rqyhpwo1_500.gif', caption='Peter Griffin')
-
-st.file_uploader(label='nc file or tif file', type=None, accept_multiple_files=True, key=None, help=None, on_change=None, args=None, kwargs=None, *, disabled=False, label_visibility="visible")
